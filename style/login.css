@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Roboto:wght@300;400;500&family=Montserrat:wght@500&display=swap');
+
+body{
+    background-color: white;
+	margin:0;
+}
+.menu{
+	padding:0;
+	width: 100%;
+    height:auto;
+	margin:0;
+    display:inline-table;
+	background: #FFFFFF;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.25);
+}
+.menu img{
+    width: 61px;
+    height: 61px;
+    float:left;
+    margin-left: 27px;
+    margin-top: 19px;
+
+}
+.menu h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 27px;
+
+    color: #000000;
+}
+.isiLogin{
+    width: 50%;
+    height: auto;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+.form_l{
+    margin: 20px;
+}
+.head_l{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.25);
+}
+.head_l h4{
+    padding: 20px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    color: #555555;
+}
+.body_l{
+    border-radius: 10px;
+    padding: 0 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    
+}
+.body_l input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.body_l .btn-masuk{
+    width: 100%;
+    height: 35px;
+    background-color: #0099B7;
+    border: none;
+    border-radius: 4px;
+    margin: 8px 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.body_l .btn-masuk:hover{
+    background-color: #47C5DE;
+}
+.reg{
+    width: 100%;
+    padding:0;
+    margin: 0 0;
+    text-align: center;
+}
+
+.reg h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0 5px;
+    display: inline-block;
+}
+.reg a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0 5px;
+    display: inline-block;
+
+    color: #7B7B7B;
+    text-decoration: none;
+}
